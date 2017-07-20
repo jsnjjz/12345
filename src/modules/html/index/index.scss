@@ -1,0 +1,43 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+
+#main{
+	margin-top: 88rem/$const;
+	padding-left: $padding-x/$const;
+	padding-right: $padding-x/$const;
+	box-sizing: border-box;
+	background: $white;
+	li+li {
+		border-top: 1px solid #ddd;
+	}
+	a {
+		display: table-row;
+		height: 178rem/$const;
+	}
+	.iconfont {
+		display: table-cell;
+		vertical-align: middle;
+		padding-left: 22rem/$const;
+		font-size: 72rem/$const;
+	}
+	.cen {
+		display: table-cell;
+		width: 580rem/$const;
+		vertical-align: middle;
+		padding-left: 34rem/$const;
+		h3 {
+			line-height: 54rem/$const;
+			font-size: $font-large/$const;
+		}
+		p {
+			line-height: 40rem/$const;
+			font-size: $font-small/$const;
+		}
+	}
+		.icon-right {
+			display: table-cell;
+			vertical-align: middle;
+			font-size: 38rem/$const;
+			color: $arrow-color;
+	}
+}

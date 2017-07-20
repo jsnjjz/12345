@@ -1,0 +1,41 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+
+#advisory_list {
+	margin-top: 291rem/$const;
+	padding-left: $padding-x/$const;
+	padding-right: $padding-x/$const;
+	padding-bottom: 60rem/$const;
+	width: 100%;
+	box-sizing: border-box;
+	background: $body-bg;
+	overflow: hidden;
+	.list {
+		ul {
+			margin-right: -48rem/$const;
+		}
+		li {
+			float: left;
+			width: 208rem/$const;
+			height: 188rem/$const;
+			margin-right: 36rem/$const;
+			margin-top: 38rem/$const;
+			background: $white;
+			border: 1px solid #eee;
+			text-align: center;
+			.round {
+				width: 100rem/$const;
+				height: 100rem/$const;
+				line-height: 100rem/$const;
+				margin: 20rem/$const auto;
+				border-radius: 50%;
+				background: #3fafee;
+				text-align: center;
+				.iconfont {
+					font-size: 60rem/$const;
+					color: $white;
+				}
+			}
+		}
+	}
+}

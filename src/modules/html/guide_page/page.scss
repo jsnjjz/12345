@@ -1,0 +1,17 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+
+.swiper-container {
+	#enter {
+		position: absolute;
+		bottom: 188rem/$const;
+		margin-left: 264rem/$const;
+		width: 220rem/$const;
+		height: 72rem/$const;
+		line-height: 72rem/$const;
+		border: 1px solid #383838;
+		border-radius: $border-radius/$const;
+		text-align: center;
+		font-size: $font-large/$const;
+	}
+}

@@ -1,0 +1,51 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+
+#search {
+	position: absolute;
+	top: 87rem/$const;
+	width: 100%;
+	padding-top: 48rem/$const;
+	padding-left: $padding-x/$const;
+	padding-right: $padding-x/$const;
+	box-sizing: border-box;
+	background: $brand;
+//	background: hotpink;
+	line-height: 22rem/$const;
+	text-align: center;
+	.search_box {
+		width: 702rem/$const;
+		height: 88rem/$const;
+		border-radius: $border-radius-search/$const;
+		background: $white;
+		text-align: left;
+		line-height: 88rem/$const;
+		input {
+			width: 610rem/$const;
+			margin-left: 22rem/$const;
+			font-size: $font-medium/$const;
+		}
+		.icon-search {
+			line-height: 82rem/$const;
+			font-size: 40rem/$const;
+			color: #aaa;
+		}
+	}
+	dl {
+		line-height: 68rem/$const;
+		overflow: hidden;
+		color: $white;
+		dt {
+			float: left;
+		}
+		dd {
+			float: left;
+			margin-left: 28rem/$const;
+			a {
+				color: $white;
+				padding-bottom: 3px;
+				border-bottom: 1px solid $white;
+			}
+		}
+	}
+}
