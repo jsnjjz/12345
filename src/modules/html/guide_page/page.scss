@@ -2,6 +2,12 @@
 @import "../../css/mixins.scss";
 
 .swiper-container {
+		img {
+//			width: 750rem/$const;
+//			height: 1334rem/$const;
+			width: 100%;
+			height: 100%;
+		}
 	#enter {
 		position: absolute;
 		bottom: 188rem/$const;

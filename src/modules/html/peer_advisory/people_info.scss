@@ -1,0 +1,136 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+body {
+	overflow: hidden!important;
+}
+#info_main {
+	margin-top: 88rem/$const;
+	overflow: hidden;
+	background: $body-bg;
+	.search {
+//		position: fixed;
+		width: 702rem/$const;
+		margin-left: $padding-x/$const;
+		margin-top: 20rem/$const;
+		margin-bottom: 20rem/$const;
+		border-radius: $border-radius-search/$const;
+		line-height: 82rem/$const;
+		background: $white;
+		.icon-search {
+			margin-left: 18rem/$const;
+			line-height: 40rem/$const;
+			font-size: 44rem/$const;
+			vertical-align: middle;
+		}
+		input {
+			vertical-align: middle;
+			width: 590rem/$const;
+		}
+	}
+	.wrap_cen {
+		width: 100%;
+		.list_side {
+			width: 158rem/$const;
+			line-height: 88rem/$const;
+			text-align: center;
+			a {
+				font-size: 28rem/$const;
+			}
+			.on {
+				color: $brand-orange;
+			}
+		}
+		.cen {
+			width: 592rem/$const;
+			padding-left: 24rem/$const;
+			padding-right: 24rem/$const;
+			box-sizing: border-box;
+			background: $white;
+			.filter {
+				margin-top: 14rem/$const;
+				margin-bottom: 14rem/$const;
+				button+button {
+					margin-left: 14rem/$const;
+				}
+				button {
+					width: 166rem/$const;
+					height: 58rem/$const;
+					border: 1px solid #ddd;
+					background: #f7f7f7;
+				}
+				.active {
+					background: $brand-orange;
+					color: $white;
+				}
+			}
+			.cen_box {
+				overflow: scroll;
+				width: 592rem/$const;
+				height: 1040rem/$const;
+//				background: yellowgreen;
+			}
+			.people_info {
+				border: 1px solid #ddd;
+				@include border-top-radius(6rem/$const);
+				.people_info_ava {
+					border-bottom: 1px solid #ddd;
+					img {
+						margin-top: 18rem/$const;
+						margin-left: 18rem/$const;
+						margin-right: 38rem/$const;
+						margin-bottom: 20rem/$const;
+						border-radius: 50%;
+					}
+					div {
+						.name {
+							line-height: 66rem/$const;
+							font-size: $font-medium/$const;
+							font-weight: bolder;
+						}
+						p+p {
+							line-height: 40rem/$const;
+							font-size: $font-small/$const;
+							color: #8a8a8a;
+						}
+					}
+					.time {
+						clear: both;
+						margin-left: 18rem/$const;
+						line-height: 50rem/$const;
+						font-size: $font-small/$const;
+					}
+					.spe {
+						margin-left: 18rem/$const;
+						margin-bottom: 12rem/$const;
+						font-size: $font-small/$const;
+						span {
+							display: inline-block;
+							padding-left: 4rem/$const;
+							padding-right: 4rem/$const;
+							margin-left: 14rem/$const;
+							border: 1px solid $brand-orange;
+							color: $brand-orange;
+						}
+					}
+				}
+				>p {
+					line-height: 76rem/$const;
+					span {
+						margin-left: 18rem/$const;
+					}
+					.btn {
+						display: inline-block;
+						margin-left: 140rem/$const;
+						line-height: 58rem/$const;
+						text-align: center;
+						width: 180rem/$const;
+						height: 58rem/$const;
+						background: $brand-orange;
+						border-radius: $border-radius-search/$const;
+						color: $white;
+					}
+				}
+			}
+		}
+	}
+}
