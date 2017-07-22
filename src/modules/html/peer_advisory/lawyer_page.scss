@@ -1,0 +1,159 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+
+#lawyer_page {
+	margin-top: 88rem/$const;
+//	box-sizing: border-box;
+	.per_info {
+		padding-left: $padding-x/$const;
+		padding-right: $padding-x/$const;
+		padding-top: 22rem/$const;
+		padding-bottom: 30rem/$const;
+		background: $white;
+		color: #9a9a9a;
+		img {
+			border-radius: 50%;
+			margin-right: 34rem/$const;
+		}
+		>div {
+			.name {
+				line-height: 58rem/$const;
+				font-weight: bolder;
+				font-size: $font-large/$const;
+				color: #000;
+			}
+			.time {
+				line-height: 54rem/$const;
+				font-size: 26rem/$const;
+				i {
+					display: inline-block;
+					margin-left: 20rem/$const;
+					width: 48rem/$const;
+					height: 24rem/$const;
+					border-radius: $border-radius-search/$const;
+					line-height: 24rem/$const;
+					background: $brand-red;
+					text-align: center;
+					font-size: 20rem/$const;
+					color: $white;
+				}
+			}
+			.specialty {
+				line-height: 36rem/$const;
+				font-size: 26rem/$const;
+				span {
+					display: inline-block;
+					width: 108rem/$const;
+					height: 34rem/$const;
+					border: 1px solid $brand-orange;
+					text-align: center;
+					line-height: 34rem/$const;
+					font-size: 24rem/$const;
+					color: $brand-orange;
+				}
+				span+span {
+					margin-left: 12rem/$const;
+				}
+			}
+			.id {
+				margin-top: 8rem/$const;
+				line-height: 44rem/$const;
+				font-size: 26rem/$const;
+			}
+			.add {
+				line-height: 44rem/$const;
+				font-size: 26rem/$const;
+			}
+		}
+	}
+	.score {
+		display: table;
+		width: 100%;
+		margin-top: 20rem/$const;
+		margin-bottom: 20rem/$const;
+		padding-top: 10rem/$const;
+		padding-bottom: 10rem/$const;
+		background: $white;
+		>div {
+			display: table-cell;
+			width: 33.3333333333%;
+			text-align: center;
+			p {
+				font-size: 26rem/$const;
+				line-height: 42rem/$const;
+			}
+			p+p {
+				font-size: 32rem/$const;
+				color: $brand-red;
+				line-height: 46rem/$const;
+			}
+		}
+		div+div {
+			border-left: 1px solid #ddd;
+		}
+	}
+	.good_at {
+		padding-left: 52rem/$const;
+		padding-right: 52rem/$const;
+		padding-top: 24rem/$const;
+		padding-bottom: 26rem/$const;
+		background: $white;
+		h4 {
+			text-align: center;
+			font-size: $font-medium/$const;
+			font-weight: normal;
+			color: $brand-orange;
+			span {
+				position: relative;
+				&:before {
+					position: absolute;
+					left: -46rem/$const;
+					top: 2rem/$const;
+					font-family:"iconfont" !important;
+					font-size: $font-medium/$const;
+					font-style:normal;
+					-webkit-font-smoothing: antialiased;
+					-moz-osx-font-smoothing: grayscale;
+					content: "\e65e";
+				}
+			}
+		}
+		>p {
+			margin-top: 16rem/$const;
+			line-height: 44rem/$const;
+			font-size: 28rem/$const;
+		}
+	}
+	.introduction {
+		margin-top: 20rem/$const;
+		h4 {
+			span {
+				&:before {
+					content: "\e60d";
+				}
+			}
+		}
+		a {
+			display: block;
+			margin-top: 12rem/$const;
+			text-align: center;
+			font-size: 28rem/$const;
+			.icon-right {
+				font-size: 28rem/$const;
+				color: #8a8a8a;
+			}
+		}
+	}
+	.btn {
+		display: block;
+		margin: 120rem/$const auto 0 auto;
+		width: 702rem/$const;
+		height: 88rem/$const;
+		text-align: center;
+		line-height: 88rem/$const;
+		border-radius: $border-radius-search/$const;
+		background: $brand;
+		font-size: $font-medium/$const;
+		color: $white;
+	}
+}

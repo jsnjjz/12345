@@ -1,0 +1,117 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+
+#chat {
+	margin-top: 88rem/$const;
+	overflow: hidden;
+	.list {
+		margin-bottom: 150rem/$const;
+		>p {
+			margin-top: 36rem/$const;
+			margin-bottom: 36rem/$const;
+			text-align: center;
+			font-size: 26rem/$const;
+			color: #8a8a8a;
+		}
+	}
+	.que {
+		margin-right: $padding-x/$const;
+		margin-bottom: 40rem/$const;
+		img {
+			float: right;
+			margin-top: 10rem/$const;
+			width: 120rem/$const;
+			height: 120rem/$const;
+			border-radius: 50%;
+		}
+		p {
+			float: right;
+			position: relative;
+			width: 392rem/$const;
+			height: 116rem/$const;
+			margin-right: 34rem/$const;
+			padding-top: 32rem/$const;
+			padding-bottom: 32rem/$const;
+			padding-left: 28rem/$const;
+			padding-right: 28rem/$const;
+			border-radius: 20rem/$const;
+			background: #fefdf3;
+			font-size: 30rem/$const;
+			.triangle {
+				position: absolute;
+				top: 46rem/$const;
+				right: -32rem/$const;
+				width: 0;
+				height: 0;
+				border-width: 16rem/$const;
+				border-style: solid;
+				border-color: transparent transparent transparent #fefdf3;
+			}
+		}
+	}
+	.ans {
+		margin-left: $padding-x/$const;
+		margin-bottom: 40rem/$const;
+		img {
+			float: left;
+			margin-top: 10rem/$const;
+			border-radius: 50%;
+		}
+		p {
+			float: left;
+			position: relative;
+			width: 392rem/$const;
+			height: 116rem/$const;
+			border: 1px solid #ddd;
+			margin-left: 34rem/$const;
+			padding-top: 32rem/$const;
+			padding-bottom: 32rem/$const;
+			padding-left: 28rem/$const;
+			padding-right: 28rem/$const;
+			border-radius: 20rem/$const;
+			background: $white;
+			font-size: 30rem/$const;
+			.triangle {
+				position: absolute;
+				top: 46rem/$const;
+				left: -32rem/$const;
+				width: 0;
+				height: 0;
+				border-width: 16rem/$const;
+				border-style: solid;
+				border-color: transparent #ddd transparent transparent;
+				span {
+					position: absolute;
+					top: -15rem/$const;
+					left: -13rem/$const;
+					width: 0;
+					height: 0;
+					border-width: 15rem/$const;
+					border-style: solid;
+					border-color: transparent $white transparent transparent;
+				}
+			}
+		}
+	}
+	.input_box {
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		padding-top: 24rem/$const;
+		height: 96rem/$const;
+		background: $white;
+		input {
+			width: 550rem/$const;
+			height: 82rem/$const;
+			vertical-align: middle;
+			border-radius: 16rem/$const;
+			margin-left: $padding-x/$const;
+			background: #efeef3;
+		}
+		.iconfont {
+			vertical-align: middle;
+			margin-left: 12rem/$const;
+			font-size: 58rem/$const;
+		}
+	}
+}
