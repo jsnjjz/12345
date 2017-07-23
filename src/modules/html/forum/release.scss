@@ -1,0 +1,154 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+
+#release {
+	position: relative;
+	margin-top: 258rem/$const;
+	background: $white;
+	.write_box {
+		padding-left: 50rem/$const;
+		padding-right: 50rem/$const;
+		padding-bottom: 40rem/$const;
+		.icon-close {
+			position: absolute;
+			top: 30rem/$const;
+			right: 36rem/$const;
+			font-size: 36rem/$const;
+		}
+		.inp {
+			width: 650rem/$const;
+			padding-top: 14rem/$const;
+			padding-bottom: 14rem/$const;
+			padding-left: 4rem/$const;
+			margin-top: 64rem/$const;
+			font-size: 30rem/$const;
+			border-bottom: 1px solid #ccc;
+		}
+		::-webkit-input-placeholder {
+			color: #8a8a8a;
+			font-size: 30rem/$const;
+		}
+		textarea {
+			padding: 24rem/$const;
+			margin-top: 28rem/$const;
+			height: 238rem/$const;
+			width: 100%;
+			box-sizing: border-box;
+			vertical-align: middle;
+			background: #fafafa;
+			border-color: #e6e6e6;
+		}
+		.monitor {
+			position: absolute;
+			right: 70rem/$const;
+			top: 354rem/$const;
+		}
+		P {
+			line-height: 78rem/$const;
+			span {
+				display: inline-block;
+				vertical-align: middle;
+				width: 100rem/$const;
+				height: 38rem/$const;
+				line-height: 38rem/$const;
+				border: 1px solid $brand-orange;
+				border-radius: 18rem/$const;
+				text-align: center;
+				color: $brand-orange;
+			}
+			a {
+				margin-left: 30rem/$const;
+				color: $brand-orange;
+			}
+		}
+		div {
+			text-align: right;
+		}
+		.sub {
+			width: 160rem/$const;
+			height: 58rem/$const;
+			border-radius: 4rem/$const;
+			background: $brand-orange;
+			color: $white;
+		}
+	}
+	.line {
+		line-height: 88rem/$const;
+		background: #f2f2f2;
+		font-weight: normal;
+		span {
+			font-size: 36rem/$const;
+			margin-left: 60rem/$const;
+		}
+	}
+	.lawyer {
+		padding-left: 50rem/$const;
+		padding-right: 50rem/$const;
+		padding-top: 50rem/$const;
+		padding-bottom: 50rem/$const;
+		img {
+			margin-left: 18rem/$const;
+			margin-right: 18rem/$const;
+			width: 236rem/$const;
+			height: 236rem/$const;
+			border-radius: 50%;
+			float: left;
+		}
+		div {
+			.name {
+				line-height: 64rem/$const;
+				strong {
+					font-size: 36rem/$const;
+					&:before {
+						margin-right: 14rem/$const;
+						width: 12rem/$const;
+						height: 28rem/$const;
+						background: $brand-red;
+						content: "";
+						display: inline-block;
+					}
+				}
+				span {
+					margin-left: 10rem/$const;
+					font-size: 30rem/$const;
+				}
+			}
+			p+p {
+				line-height: 48rem/$const;
+				font-size: 32rem/$const;
+				color: #aeaeae;
+			}
+			.answer {
+				display: inline-block;
+				margin-top: 18rem/$const;
+				width: 160rem/$const;
+				height: 60rem/$const;
+				line-height: 60rem/$const;
+				text-align: center;
+				background: $brand-orange;
+				border-radius: 4rem/$const;
+				color: $white;
+			}
+		}
+	}
+}
+.footer {
+	position: fixed;
+	z-index: 10;
+	bottom: 0;
+	background: $white;
+	width: 100%;
+	box-shadow: 10px 0 10px #efefef;
+	ul {
+		display: table;
+		width: 100%;
+	}
+	li {
+		display: table-cell;
+		line-height: 98rem/$const;
+		text-align: center;
+		.iconfont {
+			font-size: 40rem/$const;
+		}
+	}
+}

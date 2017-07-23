@@ -1,0 +1,136 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+
+#evaluation {
+	margin-top: 88rem/$const;
+	margin-bottom: 58rem/$const;
+//	box-sizing: border-box;
+	overflow-x: hidden;
+	.attention {
+		padding-left: $padding-x/$const;
+		padding-right: $padding-y/$const;
+		padding-top: 30rem/$const;
+		background: $white;
+		.box {
+			border-bottom: 1px solid #f0f0f0;
+			padding-bottom: 30rem/$const;
+				img {
+				float: left;
+				margin-right: 24rem/$const;
+				border-radius: 50%;
+			}
+			>div {
+				float: left;
+				p {
+					line-height: 58rem/$const;
+					font-size: 32rem/$const;
+					font-weight: bolder;
+					span {
+						margin-left: 14rem/$const;
+						font-size: 26rem/$const;
+						font-weight: normal;
+					}
+				}
+				p+p {
+					font-size: 32rem/$const;
+					font-weight: normal;
+				}
+			}
+			button {
+				float: left;
+				width: 100rem/$const;
+				height: 48rem/$const;
+				border: 1px solid $brand-red;
+				border-radius: $border-radius-search/$const;
+				margin-left: 184rem/$const;
+				margin-top: 39rem/$const;
+				background: $white;
+				font-size: 28rem/$const;
+				color: $brand-red;
+			}
+		}
+	}
+	.satisfaction {
+		display: table;
+		width: 100%;
+		padding-left: $padding-x/$const;
+		padding-right: $padding-x/$const;
+		padding-top: 34rem/$const;
+		padding-bottom: 34rem/$const;
+		box-sizing: border-box;
+		background: $white;
+		text-align: center;
+		.on {
+			color: $brand-orange;
+		}
+		>div {
+			display: table-cell;
+			width: 33.333333333333%;
+			color: #d0d0d0;
+			.iconfont {
+				font-size: 68rem/$const;
+			}
+		}
+		div+div {
+			border-left: 1px solid #f0f0f0;
+		}
+	}
+	.cen {
+		padding-left: $padding-x/$const;
+		padding-right: $padding-x/$const;
+		padding-top: 38rem/$const;
+		margin-top: 20rem/$const;
+		background: $white;
+		.on {
+			color: $white;
+			background: $brand-orange;
+			border-color: $brand-orange;
+		}
+		ul {
+			margin-right: -26rem/$const;
+			overflow: hidden;
+			li {
+				float: left;
+				margin-right: 26rem/$const;
+				margin-bottom: 26rem/$const;
+				width: 214rem/$const;
+				height: 78rem/$const;
+				border: 1px solid #ddd;
+				border-radius: 6rem/$const;
+				line-height: 78rem/$const;
+				text-align: center;
+				font-size: 30rem/$const;
+				color: $brand-orange;
+			}
+		}
+	}
+	.txt {
+		margin-top: 20rem/$const;
+		padding-left: $padding-x/$const;
+		padding-right: $padding-x/$const;
+		padding-top: 28rem/$const;
+//		padding-bottom: 38rem$const;
+		background: $white;
+		textarea {
+			width: 702rem/$const;
+			height: 276rem/$const;
+			padding: 20rem/$const;
+			margin-bottom: 28rem/$const;
+			border: 1px solid #ddd;
+			border-radius: 4rem/$const;
+			vertical-align: middle;
+			box-sizing: border-box;
+		}	
+	}
+	.footer {
+		button {
+			width: 702rem/$const;
+			height: 88rem/$const;
+			margin: 58rem/$const $padding-x/$const 0 $padding-x/$const;
+			background: $brand;
+			border: none;
+			border-radius: 6rem/$const;
+			color: $white;
+		}
+	}
+}

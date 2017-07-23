@@ -1,0 +1,119 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+
+#forum_home {
+	margin-top: 258rem/$const;
+	margin-bottom: 102rem/$const;
+	.list {
+		padding-top: 40rem/$const;
+		padding-bottom: 22rem/$const;
+		background: $white;
+		font-size: 28rem/$const;
+		li {
+			float: left;
+			width: 187rem/$const;
+			margin-bottom: 24rem/$const;
+			text-align: center;
+			div {
+				width: 100rem/$const;
+				height: 100rem/$const;
+				margin: 0 auto;
+				margin-bottom: 14rem/$const;
+				border-radius: 50%;
+				text-align: center;
+				line-height: 100rem/$const;
+				.iconfont {
+					font-size: 60rem/$const;
+					color: $white;
+				}
+			}
+		}
+	}
+	h4 {
+		overflow: hidden;
+		line-height: 86rem/$const;
+		font-size: 30rem/$const;
+		font-weight: normal;
+		span {
+			margin-left: 40rem/$const;
+		}
+		span+span {
+			float: right;
+			margin-right: 40rem/$const;
+		}
+	}
+	.case {
+		padding-left: 44rem/$const;
+		padding-right: 44rem/$const;
+		background: $white;
+		.case1 {
+			padding-top: 32rem/$const;
+			padding-bottom: 10rem/$const;
+			border-bottom: 1px dashed #dbdbdb;
+			p {
+				overflow: hidden;
+				vertical-align: middle;
+				font-size: 24rem/$const;
+				color: #8a8a8a;
+				.round {
+					display: inline-block;
+					width: 50rem/$const;
+					height: 50rem/$const;
+					margin-right: 16rem/$const;
+					border-radius: 50%;
+					text-align: center;
+					line-height: 50rem/$const;
+					background: #ed5565;
+					.iconfont {
+						font-size: 30rem/$const;
+						color: $white;
+					}
+				}
+				strong {
+					float: right;
+					margin-top: 6rem/$const;
+					font-size: 30rem/$const;
+				}
+			}
+			h4 {
+				margin-left: 8rem/$const;
+				margin-top: 12rem/$const;
+				font-size: 30rem/$const;
+				line-height: 46rem/$const;
+			}
+			.info {
+				margin-left: 8rem/$const;
+				line-height: 62rem/$const;
+			}
+		}
+	}
+	.q_and_a {
+		.ans {
+			margin-left: 8rem/$const;
+			margin-top: 20rem/$const;
+			margin-bottom: 16rem/$const;
+			font-size: 26rem/$const;
+			color: #000!important;
+		}
+	}
+	
+}
+.footer {
+		position: fixed;
+		bottom: 0;
+		background: $white;
+		width: 100%;
+		box-shadow: 10px 0 10px #efefef;
+		ul {
+			display: table;
+			width: 100%;
+		}
+		li {
+			display: table-cell;
+			line-height: 98rem/$const;
+			text-align: center;
+			.iconfont {
+				font-size: 40rem/$const;
+			}
+		}
+	}

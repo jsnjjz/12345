@@ -1,0 +1,151 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+
+#submit_question {
+	margin-top: 88rem/$const;
+	.question {
+		padding-left: 50rem/$const;
+		padding-right: 50rem/$const;
+		background: $white url(../../images/submitBg.png) no-repeat 546rem/$const 36rem/$const;
+		.user {
+			.round {
+				display: inline-block;
+				margin-top: 28rem/$const;
+				margin-bottom: 20rem/$const;
+				margin-right: 20rem/$const;
+				width: 60rem/$const;
+				height: 60rem/$const;
+				background: $brand;
+				border-radius: 50%;
+				text-align: center;
+				line-height: 60rem/$const;
+				.icon-peoplePic {
+					font-size: 30rem/$const;
+					color: $white;
+				}
+			}
+			span+span {
+				font-size: 30rem/$const;
+				color: $brand;
+			}
+		}
+		p {
+			line-height: 42rem/$const;
+			font-size: 30rem/$const;
+			color: #383838;
+		}
+		p+p {
+			margin-top: 18rem/$const;
+			line-height: 34rem/$const;
+			font-size: 26rem/$const;
+			color: #5a5a5a;
+		}
+		.btn {
+			margin-top: 24rem/$const;
+			padding-bottom: 28rem/$const;
+			span {
+				display: inline-block;
+				margin-left: 8rem/$const;
+				width: 100rem/$const;
+				height: 38rem/$const;
+				text-align: center;
+				line-height: 38rem/$const;
+				border-radius: 18rem/$const;
+				border: 1px solid #ea7e15;
+				color: #ea7e15;
+			}
+		}
+		.sta {
+			line-height: 78rem/$const;
+			border-top: 1px dashed #dadada;
+			font-size: 24rem/$const;
+			color: #8a8a8a;
+			.message {
+				margin-left: 22rem/$const;
+				margin-right: 54rem/$const;
+			}
+			.iconfont {
+				margin-left: 14rem/$const;
+				font-size: 30rem/$const;
+			}
+		}
+	}
+	.answer {
+		padding-left: 50rem/$const;
+		padding-right: 50rem/$const;
+		border-top: 2px solid #d4d4d4;
+		background: $white;
+		.reply {
+			margin-top: 28rem/$const;
+			line-height: 64rem/$const;
+			.avatar {
+				display: inline-block;
+				margin-left: 12rem/$const;
+				margin-right: 20rem/$const;
+				width: 64rem/$const;
+				height: 64rem/$const;
+				border-radius: 50%;
+				vertical-align: middle;
+				background: url(../../images/avatar1.jpg) no-repeat;
+				background-size: cover;
+			}
+			span+span {
+				float: right;
+				width: 122rem/$const;
+				height: 46rem/$const;
+				border-radius: 4rem/$const;
+				text-align: center;
+				line-height: 46rem/$const;
+				background: $brand-red;
+				color: $white;
+				.icon-heart {
+					font-size: 26rem/$const;
+				}
+			}
+		}
+		.txt {
+			margin-top: 14rem/$const;
+			margin-left: 22rem/$const;
+			margin-bottom: 22rem/$const;
+			line-height: 34rem/$const;
+			font-size: 26rem/$const;
+			color: #777777;
+			span {
+				color: $brand-orange;
+			}
+		}
+		.sta {
+			line-height: 78rem/$const;
+			border-top: 1px dashed #dadada;
+			font-size: 24rem/$const;
+			color: #8a8a8a;
+			.message {
+				margin-left: 22rem/$const;
+				margin-right: 54rem/$const;
+			}
+			.iconfont {
+				margin-left: 14rem/$const;
+				font-size: 30rem/$const;
+			}
+		}
+	}
+}
+.footer {
+		position: fixed;
+		bottom: 0;
+		background: $white;
+		width: 100%;
+		box-shadow: 10px 0 10px #efefef;
+		ul {
+			display: table;
+			width: 100%;
+		}
+		li {
+			display: table-cell;
+			line-height: 98rem/$const;
+			text-align: center;
+			.iconfont {
+				font-size: 40rem/$const;
+			}
+		}
+	}

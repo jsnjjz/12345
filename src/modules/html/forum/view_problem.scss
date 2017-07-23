@@ -1,0 +1,153 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+
+#view_problem {
+	margin-top: 260rem/$const;
+	margin-bottom: 118rem/$const;
+	.question {
+		padding-left: 50rem/$const;
+		padding-right: 50rem/$const;
+		padding-bottom: 14rem/$const;
+		background: $white;
+		.user {
+			.round {
+				display: inline-block;
+				margin-top: 28rem/$const;
+				margin-bottom: 20rem/$const;
+				margin-right: 20rem/$const;
+				width: 60rem/$const;
+				height: 60rem/$const;
+				background: $brand;
+				border-radius: 50%;
+				text-align: center;
+				line-height: 60rem/$const;
+				.icon-peoplePic {
+					font-size: 30rem/$const;
+					color: $white;
+				}
+			}
+			span+span {
+				font-size: 30rem/$const;
+				color: $brand;
+			}
+		}
+		p {
+			line-height: 42rem/$const;
+			font-size: 30rem/$const;
+			color: #383838;
+		}
+		p+p {
+			margin-top: 18rem/$const;
+			line-height: 34rem/$const;
+			font-size: 26rem/$const;
+			color: #5a5a5a;
+		}
+		.btn {
+			margin-top: 24rem/$const;
+			padding-bottom: 28rem/$const;
+			span {
+				display: inline-block;
+				margin-left: 8rem/$const;
+				width: 102rem/$const;
+				height: 40rem/$const;
+				text-align: center;
+				line-height: 38rem/$const;
+				border-radius: 18rem/$const;
+				background: #edf0fa;
+				color: #3a5fd2;
+			}
+		}
+		.sta {
+			line-height: 78rem/$const;
+			border-top: 1px dashed #dadada;
+			font-size: 24rem/$const;
+			color: #8a8a8a;
+			.message {
+				margin-left: 22rem/$const;
+				margin-right: 54rem/$const;
+			}
+			.likes {
+				color: $brand-red;
+			}
+			.iconfont {
+				margin-left: 14rem/$const;
+				font-size: 30rem/$const;
+			}
+			.pull-right {
+				margin-top: 14rem/$const;
+				width: 94rem/$const;
+				height: 44rem/$const;
+				line-height: 44rem/$const;
+				text-align: center;
+				border-radius: 4rem/$const;
+				background: $brand-red;
+				color: $white;
+			}
+		}
+	}
+	.answer {
+		padding-left: 46rem/$const;
+		padding-right: 48rem/$const;
+		background: $white;
+		overflow: hidden;
+		.article {
+			padding-bottom: 20rem/$const;
+			border-bottom: 1px solid #d7d7d7;
+			margin-top: 30rem/$const;
+			.side {
+				width: 72rem/$const;
+				text-align: center;
+				img {
+					width: 60rem/$const;
+					height: 60rem/$const;
+					border-radius: 50%;
+				}
+				span {
+					display: inline-block;
+					margin-top: 12rem/$const;
+					width: 72rem/$const;
+					height: 36rem/$const;
+					line-height: 36rem/$const;
+					background: #edf0fa;
+					font-size: 24rem/$const;
+					color: #3a5fd2;
+				}
+			}
+			.cen {
+				width: 562rem/$const;
+				.name {
+					margin-bottom: 12rem/$const;
+					line-height: 54rem/$const;
+					font-size: 30rem/$const;
+				}
+				p+p {
+					line-height: 36rem/$const;
+					font-size: 26rem/$const;
+					span {
+						color: #3a5fd2;
+					}
+				}
+			}
+		}
+	}
+}
+.footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	box-shadow: 0 0 2px 3px #d1d1d1;
+	height: 118rem/$const;
+	line-height: 118rem/$const;
+//	background: hotpink;
+	background: $white;
+	input {
+		width: 598rem/$const;
+		line-height: 58rem/$const;
+		margin-left: 46rem/$const;
+		border-bottom: 1px solid #ccc;
+	}
+	.icon-send {
+		font-size: 50rem/$const;
+		color: #999;
+	}
+}
