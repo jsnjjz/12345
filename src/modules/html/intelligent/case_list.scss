@@ -1,0 +1,35 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+
+#case_list {
+	margin-top: 88rem/$const;
+	overflow: hidden;
+	ul {
+		li {
+			margin-top: 20rem/$const;
+			margin-bottom: 20rem/$const;
+			padding-left: $padding-x/$const;
+			padding-right: $padding-x/$const;
+			background: $white;
+			a {
+				display: inline-block;
+				padding-top: 18rem/$const;
+				padding-bottom: 18rem/$const;
+				width: 702rem/$const;
+				font-size: 32rem/$const;
+				color: #484848;
+				p {
+					float: left;
+					max-width: 624rem/$const;
+					line-height: 50rem/$const;
+				}
+				.iconfont {
+					float: right;
+					line-height: 50rem/$const;
+					font-size: 32rem/$const;
+					color: #bbb;
+				}
+			}
+		}
+	}
+}

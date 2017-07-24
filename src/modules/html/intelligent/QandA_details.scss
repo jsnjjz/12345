@@ -1,0 +1,127 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+
+#details {
+	margin-top: 88rem/$const;
+	.case {
+		padding-left: $padding-x/$const;
+		padding-right: $padding-x/$const;
+		padding-top: 38rem/$const;
+		padding-bottom: 38rem/$const;
+		background: $white;
+		h4 {
+			line-height: 36rem/$const;
+			font-size: 32rem/$const;
+			font-weight: normal;
+			vertical-align: middle;
+			.icon-question {
+				vertical-align: middle;
+				font-size: 32rem/$const;
+				color: $brand;
+			}
+		}
+		p {
+			margin-top: 22rem/$const;
+			line-height: 44rem/$const;
+			text-indent: 56rem/$const;
+			font-size: 28rem/$const;
+			color: #6e6e6e;
+			span {
+				color: #8a8a8a;
+				.icon-down {
+					font-size: 28rem/$const;
+					color: #8a8a8a;
+				}
+			}
+		}
+		>div {
+			width: 100%;
+			margin-top: 22rem/$const;
+			line-height: 34rem/$const;
+			overflow: hidden;
+			color: #aaa;
+			span+span {
+				float: right;
+				margin-left: 28rem/$const;
+			}
+			.iconfont {
+				margin-right: 14rem/$const;
+				color: #aaa;
+				font-size: 30rem/$const;
+			}
+		}
+	}
+	.answer {
+		padding-left: $padding-x/$const;
+		padding-right: $padding-x/$const;
+		border-top: 2rem/$const solid #e1e1e1;
+		background: #f8f8f8;
+		.module {
+			padding-top: 24rem/$const;
+			padding-bottom: 24rem/$const;
+			border-bottom: 1px solid #ddd;
+			img {
+				float: left;
+				width: 80rem/$const;
+				height: 80rem/$const;
+				border-radius: 50%;
+			}
+			.cen {
+				width: 622rem/$const;
+				.head {
+					line-height: 42rem/$const;
+					.name {
+						margin-left: 22rem/$const;
+						font-size: 32rem/$const;
+					}
+					.time {
+						margin-right: 12rem/$const;
+						font-size: 24rem/$const;
+						color: #aaa;
+					}
+				}
+				p+p {
+					margin-top: 14rem/$const;
+					text-indent: 30rem/$const;
+					font-size: 28rem/$const;
+					.icon-exclamation {
+						margin-right: 14rem/$const;
+						line-height: 44rem/$const;
+						font-size: 30rem/$const;
+						color: $brand-orange;
+					}
+				}
+				>div {
+					margin-top: 12rem/$const;
+					line-height: 48rem/$const;
+					overflow: hidden;
+					font-size: 24rem/$const;
+					.btn {
+						display: inline-block;
+						width: 160rem/$const;
+						height: 48rem/$const;
+						border-radius: 4rem/$const;
+						line-height: 48rem/$const;
+						text-align: center;
+						vertical-align: middle;
+						background: #5cc79e;
+						color: $white;
+						.icon-correct {
+							margin-right: 10rem/$const;
+							vertical-align: middle;
+							font-size: 24rem/$const;
+						}
+					}
+					span+span {
+						float: right;
+						margin-right: 18rem/$const;
+						.iconfont {
+							margin-right: 16rem/$const;
+							font-size: 24rem/$const;
+						}
+					}
+				}
+			}
+		}
+	}
+}

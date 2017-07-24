@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta name="renderer" content="webkit|ie-comp|ie-stand">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Document</title>
+<!--  <meta name="viewport" content="width=device-width, initial-scale=1">-->
+  <meta name="renderer" content="webkit|ie-comp|ie-stand">
+	<script>
+		var pixelRatio = 1 / window.devicePixelRatio;
+		document.write('<meta name="viewport" content="width=device-width,initial-scale='+pixelRatio+',minimum-scale='+pixelRatio+',maximum-scale='+pixelRatio+'" />');
+		var html = document.getElementsByTagName('html')[0];
+		var pageWidth = html.getBoundingClientRect().width;
+		html.style.fontSize = pageWidth / 25 + "px";
+	</script>
+	<link rel="stylesheet" href="modules/css/common.scss">
+</head>
+<body>
+	<link rel="import" href="modules/html/header/header.html?__inline">
+	<link rel="import" href="modules/html/search/search.html?__inline">
+	<link rel="import" href="modules/html/intelligent/QandA.html?__inline">
+<!--	<link rel="import" href="modules/html/footer/footer.html?__inline">-->
+	<script src="lib/mod.js"></script>
+	<!--SCRIPT_PLACEHOLDER-->
+</body>
+</html>

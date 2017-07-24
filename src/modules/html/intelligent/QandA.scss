@@ -1,0 +1,24 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+
+#QandA {
+	margin-top: 256rem/$const;
+	ul {
+		li {
+			float: left;
+			width: 250rem/$const;
+			height: 180rem/$const;
+			text-align: center;
+			p {
+				margin-top: 37rem/$const;
+				line-height: 60rem/$const;
+				font-size: 40rem/$const;
+			}
+			p+p {
+				margin-top: 0;
+				line-height: 42rem/$const;
+				font-size: 28rem/$const;
+			}
+		}
+	}
+}
