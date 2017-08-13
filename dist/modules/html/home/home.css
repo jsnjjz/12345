@@ -1,0 +1,47 @@
+#main {
+  margin-top: 2.93333rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  box-sizing: border-box;
+  background: #ffffff;
+}
+
+#main li + li {
+  border-top: 1px solid #ddd;
+}
+
+#main a {
+  display: table-row;
+  height: 5.93333rem;
+}
+
+#main .iconfont {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 0.73333rem;
+  font-size: 2.4rem;
+}
+
+#main .cen {
+  display: table-cell;
+  width: 19.33333rem;
+  vertical-align: middle;
+  padding-left: 1.13333rem;
+}
+
+#main .cen h3 {
+  line-height: 1.8rem;
+  font-size: 1.2rem;
+}
+
+#main .cen p {
+  line-height: 1.33333rem;
+  font-size: 0.8rem;
+}
+
+#main .icon-right {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 1.26667rem;
+  color: #bcbcbc;
+}

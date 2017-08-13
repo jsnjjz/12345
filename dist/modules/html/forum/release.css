@@ -1,0 +1,174 @@
+#release {
+  position: relative;
+  margin-top: 8.6rem;
+  background: #ffffff;
+}
+
+#release .write_box {
+  padding-left: 1.66667rem;
+  padding-right: 1.66667rem;
+  padding-bottom: 1.33333rem;
+}
+
+#release .write_box .icon-close {
+  position: absolute;
+  top: 1rem;
+  right: 1.2rem;
+  font-size: 1.2rem;
+}
+
+#release .write_box .inp {
+  width: 21.66667rem;
+  padding-top: 0.46667rem;
+  padding-bottom: 0.46667rem;
+  padding-left: 0.13333rem;
+  margin-top: 2.13333rem;
+  font-size: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+#release .write_box ::-webkit-input-placeholder {
+  color: #8a8a8a;
+  font-size: 1rem;
+}
+
+#release .write_box textarea {
+  padding: 0.8rem;
+  margin-top: 0.93333rem;
+  height: 7.93333rem;
+  width: 100%;
+  box-sizing: border-box;
+  vertical-align: middle;
+  background: #fafafa;
+  border-color: #e6e6e6;
+}
+
+#release .write_box .monitor {
+  position: absolute;
+  right: 2.33333rem;
+  top: 11.8rem;
+}
+
+#release .write_box P {
+  line-height: 2.6rem;
+}
+
+#release .write_box P span {
+  display: inline-block;
+  vertical-align: middle;
+  width: 3.33333rem;
+  height: 1.26667rem;
+  line-height: 1.26667rem;
+  border: 1px solid #ea7e15;
+  border-radius: 0.6rem;
+  text-align: center;
+  color: #ea7e15;
+}
+
+#release .write_box P a {
+  margin-left: 1rem;
+  color: #ea7e15;
+}
+
+#release .write_box div {
+  text-align: right;
+}
+
+#release .write_box .sub {
+  width: 5.33333rem;
+  height: 1.93333rem;
+  border-radius: 0.13333rem;
+  background: #ea7e15;
+  color: #ffffff;
+}
+
+#release .line {
+  line-height: 2.93333rem;
+  background: #f2f2f2;
+  font-weight: normal;
+}
+
+#release .line span {
+  font-size: 1.2rem;
+  margin-left: 2rem;
+}
+
+#release .lawyer {
+  padding-left: 1.66667rem;
+  padding-right: 1.66667rem;
+  padding-top: 1.66667rem;
+  padding-bottom: 1.66667rem;
+}
+
+#release .lawyer img {
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
+  width: 7.86667rem;
+  height: 7.86667rem;
+  border-radius: 50%;
+  float: left;
+}
+
+#release .lawyer div .name {
+  line-height: 2.13333rem;
+}
+
+#release .lawyer div .name strong {
+  font-size: 1.2rem;
+}
+
+#release .lawyer div .name strong:before {
+  margin-right: 0.46667rem;
+  width: 0.4rem;
+  height: 0.93333rem;
+  background: #ff1b00;
+  content: "";
+  display: inline-block;
+}
+
+#release .lawyer div .name span {
+  margin-left: 0.33333rem;
+  font-size: 1rem;
+}
+
+#release .lawyer div p + p {
+  line-height: 1.6rem;
+  font-size: 1.06667rem;
+  color: #aeaeae;
+}
+
+#release .lawyer div .answer {
+  display: inline-block;
+  margin-top: 0.6rem;
+  width: 5.33333rem;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  background: #ea7e15;
+  border-radius: 0.13333rem;
+  color: #ffffff;
+}
+
+.footer {
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  background: #ffffff;
+  width: 100%;
+  box-shadow: 10px 0 10px #efefef;
+}
+
+.footer ul {
+  display: table;
+  width: 100%;
+}
+
+.footer li {
+  display: table-cell;
+  line-height: 3.26667rem;
+  text-align: center;
+}
+
+.footer li .iconfont {
+  font-size: 1.33333rem;
+}

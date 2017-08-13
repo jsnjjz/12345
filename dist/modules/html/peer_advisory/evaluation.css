@@ -1,0 +1,149 @@
+#evaluation {
+  margin-top: 2.93333rem;
+  margin-bottom: 1.93333rem;
+  overflow-x: hidden;
+}
+
+#evaluation .attention {
+  padding-left: 0.8rem;
+  padding-right: 0.86667rem;
+  padding-top: 1rem;
+  background: #ffffff;
+}
+
+#evaluation .attention .box {
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 1rem;
+}
+
+#evaluation .attention .box img {
+  float: left;
+  margin-right: 0.8rem;
+  border-radius: 50%;
+}
+
+#evaluation .attention .box > div {
+  float: left;
+}
+
+#evaluation .attention .box > div p {
+  line-height: 1.93333rem;
+  font-size: 1.06667rem;
+  font-weight: bolder;
+}
+
+#evaluation .attention .box > div p span {
+  margin-left: 0.46667rem;
+  font-size: 0.86667rem;
+  font-weight: normal;
+}
+
+#evaluation .attention .box > div p + p {
+  font-size: 1.06667rem;
+  font-weight: normal;
+}
+
+#evaluation .attention .box button {
+  float: left;
+  width: 3.33333rem;
+  height: 1.6rem;
+  border: 1px solid #ff1b00;
+  border-radius: 0.2rem;
+  margin-left: 6.13333rem;
+  margin-top: 1.3rem;
+  background: #ffffff;
+  font-size: 0.93333rem;
+  color: #ff1b00;
+}
+
+#evaluation .satisfaction {
+  display: table;
+  width: 100%;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  padding-top: 1.13333rem;
+  padding-bottom: 1.13333rem;
+  box-sizing: border-box;
+  background: #ffffff;
+  text-align: center;
+}
+
+#evaluation .satisfaction .on {
+  color: #ea7e15;
+}
+
+#evaluation .satisfaction > div {
+  display: table-cell;
+  width: 33.333333333333%;
+  color: #d0d0d0;
+}
+
+#evaluation .satisfaction > div .iconfont {
+  font-size: 2.26667rem;
+}
+
+#evaluation .satisfaction div + div {
+  border-left: 1px solid #f0f0f0;
+}
+
+#evaluation .cen {
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  padding-top: 1.26667rem;
+  margin-top: 0.66667rem;
+  background: #ffffff;
+}
+
+#evaluation .cen .on {
+  color: #ffffff;
+  background: #ea7e15;
+  border-color: #ea7e15;
+}
+
+#evaluation .cen ul {
+  margin-right: -0.86667rem;
+  overflow: hidden;
+}
+
+#evaluation .cen ul li {
+  float: left;
+  margin-right: 0.86667rem;
+  margin-bottom: 0.86667rem;
+  width: 7.13333rem;
+  height: 2.6rem;
+  border: 1px solid #ddd;
+  border-radius: 0.2rem;
+  line-height: 2.6rem;
+  text-align: center;
+  font-size: 1rem;
+  color: #ea7e15;
+}
+
+#evaluation .txt {
+  margin-top: 0.66667rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  padding-top: 0.93333rem;
+  background: #ffffff;
+}
+
+#evaluation .txt textarea {
+  width: 23.4rem;
+  height: 9.2rem;
+  padding: 0.66667rem;
+  margin-bottom: 0.93333rem;
+  border: 1px solid #ddd;
+  border-radius: 0.13333rem;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+#evaluation .footer button {
+  width: 23.4rem;
+  height: 2.93333rem;
+  margin: 1.93333rem 0.8rem 0 0.8rem;
+  background: #3a5fd2;
+  border: none;
+  border-radius: 0.2rem;
+  color: #ffffff;
+}

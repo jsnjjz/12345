@@ -1,0 +1,34 @@
+#case_list {
+  margin-top: 2.93333rem;
+  overflow: hidden;
+}
+
+#case_list ul li {
+  margin-top: 0.66667rem;
+  margin-bottom: 0.66667rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  background: #ffffff;
+}
+
+#case_list ul li a {
+  display: inline-block;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  width: 23.4rem;
+  font-size: 1.06667rem;
+  color: #484848;
+}
+
+#case_list ul li a p {
+  float: left;
+  max-width: 20.8rem;
+  line-height: 1.66667rem;
+}
+
+#case_list ul li a .iconfont {
+  float: right;
+  line-height: 1.66667rem;
+  font-size: 1.06667rem;
+  color: #bbb;
+}

@@ -1,0 +1,17 @@
+.swiper-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-container #enter {
+  position: absolute;
+  bottom: 6.26667rem;
+  margin-left: 8.8rem;
+  width: 7.33333rem;
+  height: 2.4rem;
+  line-height: 2.4rem;
+  border: 1px solid #383838;
+  border-radius: 1.13333rem;
+  text-align: center;
+  font-size: 1.2rem;
+}

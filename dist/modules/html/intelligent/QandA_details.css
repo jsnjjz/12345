@@ -1,0 +1,147 @@
+#details {
+  margin-top: 2.93333rem;
+}
+
+#details .case {
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  padding-top: 1.26667rem;
+  padding-bottom: 1.26667rem;
+  background: #ffffff;
+}
+
+#details .case h4 {
+  line-height: 1.2rem;
+  font-size: 1.06667rem;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+#details .case h4 .icon-question {
+  vertical-align: middle;
+  font-size: 1.06667rem;
+  color: #3a5fd2;
+}
+
+#details .case p {
+  margin-top: 0.73333rem;
+  line-height: 1.46667rem;
+  text-indent: 1.86667rem;
+  font-size: 0.93333rem;
+  color: #6e6e6e;
+}
+
+#details .case p span {
+  color: #8a8a8a;
+}
+
+#details .case p span .icon-down {
+  font-size: 0.93333rem;
+  color: #8a8a8a;
+}
+
+#details .case > div {
+  width: 100%;
+  margin-top: 0.73333rem;
+  line-height: 1.13333rem;
+  overflow: hidden;
+  color: #aaa;
+}
+
+#details .case > div span + span {
+  float: right;
+  margin-left: 0.93333rem;
+}
+
+#details .case > div .iconfont {
+  margin-right: 0.46667rem;
+  color: #aaa;
+  font-size: 1rem;
+}
+
+#details .answer {
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  border-top: 0.06667rem solid #e1e1e1;
+  background: #f8f8f8;
+}
+
+#details .answer .module {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid #ddd;
+}
+
+#details .answer .module img {
+  float: left;
+  width: 2.66667rem;
+  height: 2.66667rem;
+  border-radius: 50%;
+}
+
+#details .answer .module .cen {
+  width: 20.73333rem;
+}
+
+#details .answer .module .cen .head {
+  line-height: 1.4rem;
+}
+
+#details .answer .module .cen .head .name {
+  margin-left: 0.73333rem;
+  font-size: 1.06667rem;
+}
+
+#details .answer .module .cen .head .time {
+  margin-right: 0.4rem;
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+#details .answer .module .cen p + p {
+  margin-top: 0.46667rem;
+  text-indent: 1rem;
+  font-size: 0.93333rem;
+}
+
+#details .answer .module .cen p + p .icon-exclamation {
+  margin-right: 0.46667rem;
+  line-height: 1.46667rem;
+  font-size: 1rem;
+  color: #ea7e15;
+}
+
+#details .answer .module .cen > div {
+  margin-top: 0.4rem;
+  line-height: 1.6rem;
+  overflow: hidden;
+  font-size: 0.8rem;
+}
+
+#details .answer .module .cen > div .btn {
+  display: inline-block;
+  width: 5.33333rem;
+  height: 1.6rem;
+  border-radius: 0.13333rem;
+  line-height: 1.6rem;
+  text-align: center;
+  vertical-align: middle;
+  background: #5cc79e;
+  color: #ffffff;
+}
+
+#details .answer .module .cen > div .btn .icon-correct {
+  margin-right: 0.33333rem;
+  vertical-align: middle;
+  font-size: 0.8rem;
+}
+
+#details .answer .module .cen > div span + span {
+  float: right;
+  margin-right: 0.6rem;
+}
+
+#details .answer .module .cen > div span + span .iconfont {
+  margin-right: 0.53333rem;
+  font-size: 0.8rem;
+}

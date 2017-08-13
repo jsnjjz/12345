@@ -1,0 +1,33 @@
+#header {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: 2.93333rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  box-sizing: border-box;
+  background: #3a5fd2;
+  line-height: 0.73333rem;
+  text-align: center;
+}
+
+#header a {
+  margin-top: 1.13333rem;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+#header h3 {
+  display: inline-block;
+  line-height: 2.93333rem;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+#header .icon-qr {
+  margin-top: 1.13333rem;
+  width: 1.46667rem;
+  height: 1.46667rem;
+  font-size: 1.46667rem;
+  color: #ffffff;
+}

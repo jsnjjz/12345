@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta name="renderer" content="webkit|ie-comp|ie-stand">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Document</title>
+<!--  <meta name="viewport" content="width=device-width, initial-scale=1">-->
+  <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <link rel="stylesheet" type="text/css" href="modules/html/header/header.css" />
+    <link rel="stylesheet" type="text/css" href="modules/html/fast_advisory/queue.css" />
+    <link rel="stylesheet" href="modules/css/common.css" />
+    <link rel="stylesheet" href="header.scss" />
+</head>
+<body>
+
+<div id="header" class="clearfix">
+	<a  class="iconfont icon-left pull-left" href="javascript:window.history.go(-1)">返回</a>
+	<h3>12345在线咨询</h3>
+	<i class="iconfont icon-qr pull-right" onclick="clicked('barcode_scan.html',true,true)"></i>
+</div>
+<div id="main_queue">
+	<div class="pic_box">
+		<img src="../../../pkg/images/queue_pic.png" alt="">
+	</div>
+	<div class="tit clearfix">
+		<div class="tit_left pull-left">
+			<p>40分钟</p>
+			<p>预计等待时间</p>
+		</div>
+		<div class="tit_right pull-left">
+			<p>刑事</p>
+			<p>您的咨询业务</p>
+		</div>
+	</div>
+	<a href="javascript:window.history.go(-1);" class="btn">
+		退出排队
+	</a>
+</div>
+<!--	<link rel="import" href="modules/html/footer/footer.html?__inline">-->	<script src="lib/mod.js"></script>
+<script>
+		var pixelRatio = 1 / window.devicePixelRatio;
+		document.write('<meta name="viewport" content="width=device-width,initial-scale='+pixelRatio+',minimum-scale='+pixelRatio+',maximum-scale='+pixelRatio+'" />');
+		var html = document.getElementsByTagName('html')[0];
+		var pageWidth = html.getBoundingClientRect().width;
+		html.style.fontSize = pageWidth / 25 + "px";
+	</script>
+<script src="lib/common.js"></script>
+<script src="lib/immersed.js"></script>
+</body>
+</html>

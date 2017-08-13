@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta name="renderer" content="webkit|ie-comp|ie-stand">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Document</title>
+<!--  <meta name="viewport" content="width=device-width, initial-scale=1">-->
+  <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <link rel="stylesheet" type="text/css" href="modules/html/header/header.css" />
+    <link rel="stylesheet" type="text/css" href="modules/html/peer_advisory/lawyer_page.css" />
+    <link rel="stylesheet" href="modules/css/common.css" />
+</head>
+<body>
+
+<div id="header" class="clearfix">
+	<a  class="iconfont icon-left pull-left" href="javascript:window.history.go(-1)">返回</a>
+	<h3>12345在线咨询</h3>
+	<i class="iconfont icon-qr pull-right" onclick="clicked('barcode_scan.html',true,true)"></i>
+</div>
+<div id="lawyer_page">
+	<div class="per_info clearfix">
+		<img class="pull-left" src="pkg/images/avatar.png" alt="">
+		<div class="pull-left">
+			<p class="name">马小亮</p>
+			<p class="time">专职律师<i>5年</i></p>
+			<p class="specialty">专长：<span>婚姻家庭</span><span>侵权纠纷</span></p>
+			<p class="id">执业证号: 11054216264795</p>
+			<p class="add">所属地区: 上海市 徐汇区</p>
+		</div>
+	</div>
+	<div class="score">
+		<div>
+			<p>咨询人数</p>
+			<p>1156</p>
+		</div>
+		<div>
+			<p>好评人数</p>
+			<p>998</p>
+		</div>
+		<div>
+			<p>满意度</p>
+			<p>98%</p>
+		</div>
+	</div>
+	<div class="good_at">
+		<h4><span>专长领域</span></h4>
+		<p>擅长各类民事、商事、房地产与建设工程，处理公司经营期间的对内外债务，婚姻家庭纠纷、刑事案件等法律事务。</p>
+	</div>
+	<div class="good_at introduction">
+		<h4><span>律师简介</span></h4>
+		<p>赵光利律师在高等院校长期从事法律教学和法律研究工作，法学理论知识扎实，对法律法规理解透彻，并致力于我国民商事、合同及教育法律法规的研究。</p>
+		<a href="">更多详情<i class="iconfont icon-right"></i></a>
+	</div>
+	<a href="chat_window.html" class="btn">开始咨询</a>
+</div>
+
+<!--	<link rel="import" href="modules/html/footer/footer.html?__inline">-->	<script src="lib/mod.js"></script>
+<script>
+		var pixelRatio = 1 / window.devicePixelRatio;
+		document.write('<meta name="viewport" content="width=device-width,initial-scale='+pixelRatio+',minimum-scale='+pixelRatio+',maximum-scale='+pixelRatio+'" />');
+		var html = document.getElementsByTagName('html')[0];
+		var pageWidth = html.getBoundingClientRect().width;
+		html.style.fontSize = pageWidth / 25 + "px";
+	</script>
+<script src="lib/common.js"></script>
+<script src="lib/immersed.js"></script>
+</body>
+</html>

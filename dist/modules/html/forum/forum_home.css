@@ -1,0 +1,133 @@
+#forum_home {
+  margin-top: 8.6rem;
+  margin-bottom: 3.4rem;
+}
+
+#forum_home .list {
+  padding-top: 1.33333rem;
+  padding-bottom: 0.73333rem;
+  background: #ffffff;
+  font-size: 0.93333rem;
+}
+
+#forum_home .list li {
+  float: left;
+  width: 6.23333rem;
+  margin-bottom: 0.8rem;
+  text-align: center;
+}
+
+#forum_home .list li div {
+  width: 3.33333rem;
+  height: 3.33333rem;
+  margin: 0 auto;
+  margin-bottom: 0.46667rem;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 3.33333rem;
+}
+
+#forum_home .list li div .iconfont {
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+#forum_home h4 {
+  overflow: hidden;
+  line-height: 2.86667rem;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+#forum_home h4 span {
+  margin-left: 1.33333rem;
+}
+
+#forum_home h4 span + span {
+  float: right;
+  margin-right: 1.33333rem;
+}
+
+#forum_home .case {
+  padding-left: 1.46667rem;
+  padding-right: 1.46667rem;
+  background: #ffffff;
+}
+
+#forum_home .case .case1 {
+  padding-top: 1.06667rem;
+  padding-bottom: 0.33333rem;
+  border-bottom: 1px dashed #dbdbdb;
+}
+
+#forum_home .case .case1 p {
+  overflow: hidden;
+  vertical-align: middle;
+  font-size: 0.8rem;
+  color: #8a8a8a;
+}
+
+#forum_home .case .case1 p .round {
+  display: inline-block;
+  width: 1.66667rem;
+  height: 1.66667rem;
+  margin-right: 0.53333rem;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 1.66667rem;
+  background: #ed5565;
+}
+
+#forum_home .case .case1 p .round .iconfont {
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+#forum_home .case .case1 p strong {
+  float: right;
+  margin-top: 0.2rem;
+  font-size: 1rem;
+}
+
+#forum_home .case .case1 h4 {
+  margin-left: 0.26667rem;
+  margin-top: 0.4rem;
+  font-size: 1rem;
+  line-height: 1.53333rem;
+}
+
+#forum_home .case .case1 .info {
+  margin-left: 0.26667rem;
+  line-height: 2.06667rem;
+}
+
+#forum_home .q_and_a .ans {
+  margin-left: 0.26667rem;
+  margin-top: 0.66667rem;
+  margin-bottom: 0.53333rem;
+  font-size: 0.86667rem;
+  color: #000 !important;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  background: #ffffff;
+  width: 100%;
+  box-shadow: 10px 0 10px #efefef;
+}
+
+.footer ul {
+  display: table;
+  width: 100%;
+}
+
+.footer li {
+  display: table-cell;
+  line-height: 3.26667rem;
+  text-align: center;
+}
+
+.footer li .iconfont {
+  font-size: 1.33333rem;
+}

@@ -1,0 +1,128 @@
+#chat {
+  margin-top: 2.93333rem;
+  overflow: hidden;
+}
+
+#chat .list {
+  margin-bottom: 5rem;
+}
+
+#chat .list > p {
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+  text-align: center;
+  font-size: 0.86667rem;
+  color: #8a8a8a;
+}
+
+#chat .que {
+  margin-right: 0.8rem;
+  margin-bottom: 1.33333rem;
+}
+
+#chat .que img {
+  float: right;
+  margin-top: 0.33333rem;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+#chat .que p {
+  float: right;
+  position: relative;
+  width: 13.06667rem;
+  height: 3.86667rem;
+  margin-right: 1.13333rem;
+  padding-top: 1.06667rem;
+  padding-bottom: 1.06667rem;
+  padding-left: 0.93333rem;
+  padding-right: 0.93333rem;
+  border-radius: 0.66667rem;
+  background: #fefdf3;
+  font-size: 1rem;
+}
+
+#chat .que p .triangle {
+  position: absolute;
+  top: 1.53333rem;
+  right: -1.06667rem;
+  width: 0;
+  height: 0;
+  border-width: 0.53333rem;
+  border-style: solid;
+  border-color: transparent transparent transparent #fefdf3;
+}
+
+#chat .ans {
+  margin-left: 0.8rem;
+  margin-bottom: 1.33333rem;
+}
+
+#chat .ans img {
+  float: left;
+  margin-top: 0.33333rem;
+  border-radius: 50%;
+}
+
+#chat .ans p {
+  float: left;
+  position: relative;
+  width: 13.06667rem;
+  height: 3.86667rem;
+  border: 1px solid #ddd;
+  margin-left: 1.13333rem;
+  padding-top: 1.06667rem;
+  padding-bottom: 1.06667rem;
+  padding-left: 0.93333rem;
+  padding-right: 0.93333rem;
+  border-radius: 0.66667rem;
+  background: #ffffff;
+  font-size: 1rem;
+}
+
+#chat .ans p .triangle {
+  position: absolute;
+  top: 1.53333rem;
+  left: -1.06667rem;
+  width: 0;
+  height: 0;
+  border-width: 0.53333rem;
+  border-style: solid;
+  border-color: transparent #ddd transparent transparent;
+}
+
+#chat .ans p .triangle span {
+  position: absolute;
+  top: -0.5rem;
+  left: -0.43333rem;
+  width: 0;
+  height: 0;
+  border-width: 0.5rem;
+  border-style: solid;
+  border-color: transparent #ffffff transparent transparent;
+}
+
+#chat .input_box {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding-top: 0.8rem;
+  height: 3.2rem;
+  background: #ffffff;
+}
+
+#chat .input_box input {
+  width: 18.33333rem;
+  height: 2.73333rem;
+  vertical-align: middle;
+  border-radius: 0.53333rem;
+  margin-left: 0.8rem;
+  background: #efeef3;
+}
+
+#chat .input_box .iconfont {
+  vertical-align: middle;
+  margin-left: 0.4rem;
+  font-size: 1.93333rem;
+}

@@ -1,0 +1,171 @@
+#submit_question {
+  margin-top: 2.93333rem;
+}
+
+#submit_question .question {
+  padding-left: 1.66667rem;
+  padding-right: 1.66667rem;
+  background: #ffffff url(../../../pkg/images/submitBg.png) no-repeat 18.2rem 1.2rem;
+}
+
+#submit_question .question .user .round {
+  display: inline-block;
+  margin-top: 0.93333rem;
+  margin-bottom: 0.66667rem;
+  margin-right: 0.66667rem;
+  width: 2rem;
+  height: 2rem;
+  background: #3a5fd2;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 2rem;
+}
+
+#submit_question .question .user .round .icon-peoplePic {
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+#submit_question .question .user span + span {
+  font-size: 1rem;
+  color: #3a5fd2;
+}
+
+#submit_question .question p {
+  line-height: 1.4rem;
+  font-size: 1rem;
+  color: #383838;
+}
+
+#submit_question .question p + p {
+  margin-top: 0.6rem;
+  line-height: 1.13333rem;
+  font-size: 0.86667rem;
+  color: #5a5a5a;
+}
+
+#submit_question .question .btn {
+  margin-top: 0.8rem;
+  padding-bottom: 0.93333rem;
+}
+
+#submit_question .question .btn span {
+  display: inline-block;
+  margin-left: 0.26667rem;
+  width: 3.33333rem;
+  height: 1.26667rem;
+  text-align: center;
+  line-height: 1.26667rem;
+  border-radius: 0.6rem;
+  border: 1px solid #ea7e15;
+  color: #ea7e15;
+}
+
+#submit_question .question .sta {
+  line-height: 2.6rem;
+  border-top: 1px dashed #dadada;
+  font-size: 0.8rem;
+  color: #8a8a8a;
+}
+
+#submit_question .question .sta .message {
+  margin-left: 0.73333rem;
+  margin-right: 1.8rem;
+}
+
+#submit_question .question .sta .iconfont {
+  margin-left: 0.46667rem;
+  font-size: 1rem;
+}
+
+#submit_question .answer {
+  padding-left: 1.66667rem;
+  padding-right: 1.66667rem;
+  border-top: 2px solid #d4d4d4;
+  background: #ffffff;
+}
+
+#submit_question .answer .reply {
+  margin-top: 0.93333rem;
+  line-height: 2.13333rem;
+}
+
+#submit_question .answer .reply .avatar {
+  display: inline-block;
+  margin-left: 0.4rem;
+  margin-right: 0.66667rem;
+  width: 2.13333rem;
+  height: 2.13333rem;
+  border-radius: 50%;
+  vertical-align: middle;
+  background: url(../../../pkg/images/avatar1.jpg) no-repeat;
+  background-size: cover;
+}
+
+#submit_question .answer .reply span + span {
+  float: right;
+  width: 4.06667rem;
+  height: 1.53333rem;
+  border-radius: 0.13333rem;
+  text-align: center;
+  line-height: 1.53333rem;
+  background: #ff1b00;
+  color: #ffffff;
+}
+
+#submit_question .answer .reply span + span .icon-heart {
+  font-size: 0.86667rem;
+}
+
+#submit_question .answer .txt {
+  margin-top: 0.46667rem;
+  margin-left: 0.73333rem;
+  margin-bottom: 0.73333rem;
+  line-height: 1.13333rem;
+  font-size: 0.86667rem;
+  color: #777777;
+}
+
+#submit_question .answer .txt span {
+  color: #ea7e15;
+}
+
+#submit_question .answer .sta {
+  line-height: 2.6rem;
+  border-top: 1px dashed #dadada;
+  font-size: 0.8rem;
+  color: #8a8a8a;
+}
+
+#submit_question .answer .sta .message {
+  margin-left: 0.73333rem;
+  margin-right: 1.8rem;
+}
+
+#submit_question .answer .sta .iconfont {
+  margin-left: 0.46667rem;
+  font-size: 1rem;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  background: #ffffff;
+  width: 100%;
+  box-shadow: 10px 0 10px #efefef;
+}
+
+.footer ul {
+  display: table;
+  width: 100%;
+}
+
+.footer li {
+  display: table-cell;
+  line-height: 3.26667rem;
+  text-align: center;
+}
+
+.footer li .iconfont {
+  font-size: 1.33333rem;
+}

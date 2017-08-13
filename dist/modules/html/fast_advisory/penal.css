@@ -1,0 +1,164 @@
+#main_penal {
+  margin-top: 2.93333rem;
+  background: #f8f8f8;
+}
+
+#main_penal .introduce {
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+  text-align: center;
+  background: #ffffff;
+}
+
+#main_penal .introduce .round {
+  display: inline-block;
+  width: 3.33333rem;
+  height: 3.33333rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  border-radius: 50%;
+  background: #ef6189;
+  text-align: center;
+  line-height: 3.33333rem;
+}
+
+#main_penal .introduce .round .icon-CriminalCase2 {
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+#main_penal .introduce h4 {
+  margin-bottom: 0.8rem;
+}
+
+#main_penal .introduce p {
+  text-align: left;
+  text-indent: 1.6rem;
+  font-size: 0.93333rem;
+}
+
+#main_penal .introduce p a {
+  color: #8a8a8a;
+}
+
+#main_penal .introduce p a .icon-down {
+  font-size: 0.8rem;
+}
+
+#main_penal .padding {
+  width: 100%;
+  height: 1.26667rem;
+  background: #ffffff;
+}
+
+#main_penal .queue {
+  width: 100%;
+  margin-bottom: 0.66667rem;
+  background: #ffffff;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  line-height: 2.6rem;
+  text-align: center;
+}
+
+#main_penal .queue .queue_left {
+  width: 50%;
+  box-sizing: border-box;
+  border-right: 1px solid #ddd;
+}
+
+#main_penal .queue .queue_right {
+  width: 50%;
+  font-weight: bolder;
+}
+
+#main_penal .duty {
+  width: 100%;
+  background: #ffffff;
+}
+
+#main_penal .duty .title {
+  line-height: 2.6rem;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+#main_penal .duty .title span {
+  margin-left: 0.8rem;
+  color: #ea7e15;
+}
+
+#main_penal .duty .title a {
+  float: right;
+  margin-right: 0.8rem;
+  color: #ea7e15;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+#main_penal .duty .title a .icon-right {
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+#main_penal .duty .list {
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  box-sizing: border-box;
+  background: #ffffff;
+}
+
+#main_penal .duty .list li + li {
+  border-top: 1px solid #ddd;
+}
+
+#main_penal .duty .list li {
+  overflow: hidden;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#main_penal .duty .list li img {
+  float: left;
+  margin-right: 1.2rem;
+}
+
+#main_penal .duty .list li .character {
+  float: left;
+}
+
+#main_penal .duty .list li .character .name {
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+#main_penal .duty .list li .character .name span {
+  margin-left: 0.8rem;
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+
+#main_penal .duty .list li .character .time {
+  margin-top: 0.4rem;
+  line-height: 1.2rem;
+  font-size: 0.8rem;
+}
+
+#main_penal .duty .list li .character .id {
+  line-height: 1.2rem;
+  font-size: 0.8rem;
+}
+
+#main_penal .btn {
+  display: block;
+  width: 23.4rem;
+  padding-top: 0.86667rem;
+  padding-bottom: 0.86667rem;
+  margin-top: 1rem;
+  margin-left: 0.8rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  text-align: center;
+  background: #3a5fd2;
+  color: #ffffff;
+}
